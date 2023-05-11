@@ -1,0 +1,76 @@
+/*  */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d8eff3;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 2.5px solid rgb(40, 55, 193);
+}
+.logo {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.logo span:nth-child(1) {
+  color: black;
+  font-weight: 900;
+}
+.logo span:nth-child(2) {
+  color: #008b6d;
+  font-weight: 900;
+}
+.logo span:nth-child(3) {
+  color: #008b6d;
+  font-weight: 900;
+}
+.logo span:nth-child(4) {
+  color: black;
+  font-weight: 900;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+}
+nav li a {
+  padding: 0 10px;
+  color: #268b97;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #2837c1;
+  text-decoration: underline;
+}
+
+/* Home */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#home img {
+  width: 200px;
+  margin: 50px;
+  border-radius: 100%;
+}
+#home section {
+  margin: 50px;
+}
+
+/* About */
+
+/* Work */
+
+/* Contact */
+
+/* Footer */
