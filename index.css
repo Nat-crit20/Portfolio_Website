@@ -24,6 +24,12 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+@media screen and (max-width: 480px) {
+  .button {
+    width: 100px;
+  }
+}
+
 h2 {
   font-size: 5vh;
 }
@@ -151,7 +157,7 @@ nav li a:hover {
     width: 0;
   }
   15% {
-    width: 350px;
+    width: 300px;
   }
   30% {
     top: 0.2rem;
@@ -210,6 +216,84 @@ nav li a:hover {
   #home {
     flex-direction: column;
     height: 100vh;
+  }
+  #home img {
+    width: 50%;
+    margin: 25px;
+  }
+  .animation span {
+    font-size: 20px;
+  }
+  .animation {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .message {
+    left: 150px;
+  }
+  @keyframes openclose {
+    0% {
+      top: 0rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 300px;
+    }
+    30% {
+      top: 0rem;
+      width: 300px;
+    }
+    33% {
+      top: 0rem;
+      width: 0;
+    }
+    35% {
+      top: 0rem;
+      width: 0;
+    }
+    38% {
+      top: -2rem;
+    }
+    48% {
+      top: -2rem;
+      width: 300px;
+    }
+    62% {
+      top: -2rem;
+      width: 300px;
+    }
+    66% {
+      top: -2rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -3.8rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -3.8rem;
+      width: 300px;
+    }
+    95% {
+      top: -3.8rem;
+      width: 300px;
+    }
+    98% {
+      top: -3.8rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
   }
 }
 
@@ -318,6 +402,21 @@ nav li a:hover {
     width: 50vw;
     height: 90vh;
     margin: 1rem;
+    justify-content: flex-start;
+  }
+  .grid_item p {
+    font-size: 1rem;
+  }
+  .grid_item .button_links {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0.5rem;
+  }
+  .grid_item .button_links a {
+    font-size: 1rem;
+    width: 75px;
   }
 }
 
