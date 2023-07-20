@@ -442,6 +442,7 @@ nav li a:hover {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 .logo_link {
   text-decoration: none;
