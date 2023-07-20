@@ -342,7 +342,7 @@ nav li a:hover {
 
 /* Work */
 #work {
-  height: 250vh;
+  height: auto;
   padding: 2rem;
   text-align: center;
 }
@@ -393,6 +393,20 @@ nav li a:hover {
   opacity: 0.5;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media screen and (max-width: 800px) {
+  #work {
+    height: auto;
+  }
+  .grid_item {
+    width: 50vw;
+    height: 90vh;
+    margin: 1rem;
+    justify-content: flex-start;
+  }
+  .grid_item p {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (max-width: 480px) {
   #work {
